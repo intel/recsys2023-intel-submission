@@ -1,0 +1,13 @@
+node_columns:
+  - src_id
+  - dst_id
+#provide the column names in your CSV file that contain the entity (node) IDs
+#Edge type name in string triplet: [source node type, relation type, destination node type].
+edge_types:
+  - [src_id, e, dst_id]
+  - [dst_id, sym_e, src_id]
+#column name in CSV that containers the label
+edge_label: "is_installed"
+#column name in CSV that contains train/test/val splits. 
+#It is required (0,1,2) are used respectivly and all three splits need to be present
+edge_split: ['train_mask', 'val_mask','test_mask']

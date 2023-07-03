@@ -1,0 +1,8 @@
+**/.ipynb_checkpoints
+**/*.parquet
+**/*.csv
+**/*.txt
+**/*.pkl
+**/*.mdl
+**/__pycache__
+/data

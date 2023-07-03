@@ -1,0 +1,17 @@
+node_columns:
+  - src_id
+  - dst_id
+#provide the column names in your CSV file that contain the entity (node) IDs
+#Edge type name in string triplet: [source node type, relation type, destination node type].
+edge_types:
+  - [src_id, e, dst_id]
+  - [dst_id, sym_e, src_id]
+#column name in CSV that containers the label
+edge_label: "is_installed"
+#column name in CSV that contains train/test/val splits. 
+#It is required (0,1,2) are used respectivly and all three splits need to be present
+edge_split: ['train_mask', 'val_mask','test_mask']
+edge_features: ['f_57', 'f_53', 'f_48', 'f_50', 'f_14', 'f_23', 'f_72', 'f_26', 'f_9', 'f_20', 'f_21', 'f_13', 'f_10', 'f_58', 'f_64', 'f_31', 'f_36', 'f_65', 'f_74', 'f_69', 'f_41', 'f_71', 'f_0', 'f_67', 'f_32', 'f_66', 'f_35', 'f_61', 'f_77', 'f_3', 'f_75', 'f_38', 'f_68', 'f_76', 'f_12', 'f_60', 'f_46', 'f_49', 'f_22', 'f_63', 'f_27', 'f_52', 'f_47', 'f_18', 'f_51', 'f_59', 'f_42', 'f_73', 'f_34', 'f_11', 'f_44', 'f_70', 'f_19', 'f_15', 'f_1', 'f_78', 'f_39', 'f_79', 'f_28', 'f_17', 'f_40', 'f_5', 'f_43', 'f_45', 'f_56', 'f_30', 'f_33', 'f_55', 'f_8', 'f_25', 'f_54', 'f_62', 'f_24', 'f_29', 'f_37']
+node_features:
+ - ['f_6', 'f_7']
+ - ['f_16', 'f_2', 'f_4', 'f_7']

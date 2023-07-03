@@ -1,0 +1,17 @@
+dataset_name: sym_recsys_hetero_CSVDatasets
+node_data:
+- file_name: nodes_0.csv
+  ntype: src_id
+- file_name: nodes_1.csv
+  ntype: dst_id
+edge_data:
+- file_name: edges_0.csv
+  etype:
+  - src_id
+  - e
+  - dst_id
+- file_name: edges_1.csv
+  etype:
+  - dst_id
+  - sym_e
+  - src_id
