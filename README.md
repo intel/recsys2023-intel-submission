@@ -19,8 +19,8 @@ We employ GNN to generate the embedding feature as input of the GBDT model for i
 
 
 <div align="center">
-  <img src="docs/graphs/self_supGNN_pipeline.png" width = "30%" alt="Figure 2" />
-  <img src="docs/graphs/supGNN_pipeline.png" width = "30%" alt="Figure 3" />
+  <img src="docs/graphs/self_supGNN_pipeline.png" width = "40%" alt="Figure 2" />
+  <img src="docs/graphs/supGNN_pipeline.png" width = "40%" alt="Figure 3" />
   <br>
   <center>Figure 2: Self-supervised bipartite GNN pipeline. &emsp;&emsp; Figure 3: Supervised bipartite GNN pipeline.</center>
 </div>
