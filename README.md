@@ -36,7 +36,7 @@ As described in the previous sections, we generate new features: (i) privacy pre
 
 
 <div align="center">
-  <img src="docs/graphs/ensemble.png" width = "50%" alt="Figure 5" />
+  <img src="docs/graphs/ensemble.png" width = "70%" alt="Figure 5" />
   <br>
   <center>Figure 5: Model training and ensemble overview.</center>
 </div>
