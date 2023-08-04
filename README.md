@@ -25,8 +25,6 @@ Our solution is the ensemble of 3 models by using different training methods and
 ### Feature engineer pipeline 
 We propose a novel [feature engineering pipeline](0_train/1_LearningFE) for privacy-preservation dataset, which is capable of enriching the features' expressiveness based on feature distribution characteristics. This method comprises of three major steps: a) analysis and classification, b) feature engineering, and c) feature selection. 
 
-
-
 ### GNN embedding feature
 We employ GNN to generate the embedding feature as input of the GBDT model for installation prediction. Depends on the graph representation, we produce three type of GNN embedding feature: a) [self-supervised GNN](0_train/2_supGNN), b) [supervised GNN](0_train/3_BiGNN), c) [Similarity GNN](4_simGNN).
 
