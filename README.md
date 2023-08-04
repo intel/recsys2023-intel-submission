@@ -10,6 +10,7 @@ We propose a novel feature engineering pipeline for privacy-preservation dataset
 
 <div align="center">
   <img src="docs/graphs/fe_overview.png" width = "60%" alt="Figure 1" />
+  <br>
   <center>Figure 1: Feature engineer pipeline overview. Role1 and Role2 refer to users and ads in this dataset. The same holds for rest 'Role' terms in this solution.</center>
 </div>
 
@@ -20,11 +21,13 @@ We employ GNN to generate the embedding feature as input of the GBDT model for i
 <div align="center">
   <img src="docs/graphs/self_supGNN_pipeline.png" width = "30%" alt="Figure 2" />
   <img src="docs/graphs/supGNN_pipeline.png" width = "30%" alt="Figure 3" />
+  <br>
   <center>Figure 2: Self-supervised bipartite GNN pipeline. &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; Figure 3: Supervised bipartite GNN pipeline.</center>
 </div>
 
 <div align="center">
   <img src="docs/graphs/simGNN_pipeline.png" width = "50%" alt="Figure 4" />
+  <br>
   <center>Figure 4: Similarity GNN pipeline.</center>
 </div>
 
@@ -34,6 +37,7 @@ As described in the previous sections, we generate new features: (i) privacy pre
 
 <div align="center">
   <img src="docs/graphs/ensemble.png" width = "50%" alt="Figure 5" />
+  <br>
   <center>Figure 5: Model training and ensemble overview.</center>
 </div>
 
