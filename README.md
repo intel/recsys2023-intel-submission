@@ -70,7 +70,7 @@ As described in the previous sections, we generate new features: (i) privacy pre
   * use 2\_supGNN to inference test data, see [here](1_inference/1_LearningFE/README.md) for details
   * use 3\_BiGNN to create inference embeddings, see [here](1_inference/2_supGNN/README.md) for details
   * use 4\_simGNN+BiGNN to inference test data, see [here](1_inference/3_BiGNN/README.md) for details
-  * use 5\_ensemble.ipynb to get final result, see [here](1_inference/README.md) for details
+  * use 5\_ensemble.ipynb to get final result, see [here](1_inference/4_ensemble.ipynb) for details
 
 # Citation
 If you use this codebase, or otherwise found our work valuable, please cite:
