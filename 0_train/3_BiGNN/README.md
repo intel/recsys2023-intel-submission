@@ -12,6 +12,12 @@
 
     Therefore, every impression connects a node of type role 1 and node of type role 2. 
 
+<div align="center">
+  <img src="../../docs/graphs/supGNN_pipeline.png" width = "80%" />
+  <br>
+  <center>Supervised bipartite GNN pipeline.</center>
+</div>
+
 ### 1.1 Summary
     The graph is modeled with nodes corresponding to roles 1 and 2 and edges corresponding to every impression
 

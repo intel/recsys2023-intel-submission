@@ -5,6 +5,13 @@ We model the ShareChat Dataset as a graph were each user-advertisement impressio
 The task is to predict if such impression will result into an app installation. To achieve that we trained a 3-layer GraphSAGE model over the similarity graph for supervised node classification task. 
 
 
+<div align="center">
+  <img src="../../docs/graphs/simGNN_pipeline.png" width = "80%"/>
+  <br>
+  <center>Similarity GNN pipeline.</center>
+</div>
+
+
 ### 1. Prepare the environment:
 ```
 ./build_env.sh

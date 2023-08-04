@@ -3,6 +3,12 @@
 ## Introduction 
 Recommendation datasets are often modelled as graph datasets because of high predictive prowess of Graph Neural Networks. Here, we create a graph dataset by using either a column or a group of columns from ShareChat dataset and train a supervised GraphSage model on it with an emphasis on ensuring no information from test data is used during training and all test examples are inferred independently i.e. no two test edges can see eachother.
 
+<div align="center">
+  <img src="../../docs/graphs/self_supGNN_pipeline.png" width = "60%"/>
+  <br>
+  <center>Self-supervised bipartite GNN pipeline.</center>
+</div>
+
 ### !Important
 
 This is an end-to-end README, Train and Inference instructions are both included.
