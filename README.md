@@ -57,7 +57,7 @@ If you use this codebase, or otherwise found our work valuable, please cite:
 ```
 @inproceedings{intelsolutionforrecsys2023,
   title={Graph Enhanced Feature Engineering for Privacy Preserving Recommendation System},
-  author={CHENDI XUE, XINYAO WANG, Yu Zhou, Poovaiah Palangappa, Ravi Motwani, Rita Brugarolas Brufau, Aasavari Dhananjay Kakne, Ke Ding, Jian Zhang},
+  author={Chendi Xue, Xinyao Wang, Yu Zhou, Poovaiah Palangappa, Ravi Motwani, Rita Brugarolas Brufau, Aasavari Dhananjay Kakne, Ke Ding, Jian Zhang},
   booktitle={RecSys 2023},
   year={2023}
 }
