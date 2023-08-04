@@ -13,12 +13,18 @@ The core idea of our solution is to augment and enrich the original dataset usin
 datasets from the above approaches are used with gradient-boosted decision trees (XGBoost and LGBM) to predict the probability of installation. Finally, we ensemble the three solutions together to obtain our final result.
 
 # Architechture
-Our solution is the ensemble of 3 models by using different training methods and feature sets as showed in below graph. We generate new features from several mehtods: (i) privacy preserving feature engineering output, (ii) supervised bipartite GNN (BiGNN) embeddings, (iii) self-supervised BiGNN embeddings and (iv) similarity Graph GNN (simGNN) embeddings. The first model is a LightGBM model trained with enhanced feature sets. The second model is an XGBoost model trained with enhanced feature sets and supervised BiGNN embeddings. The third model is a LightGBM model trained with enhanced feature sets, simGNN embeddings and self-supervised BiGNN embeddings.
+Our solution is the ensemble of 3 models by using different training methods and feature sets as showed in below graph. We generate new features from several mehtods: (i) privacy preserving feature engineering output, (ii) supervised bipartite GNN (BiGNN) embeddings, (iii) self-supervised BiGNN embeddings and (iv) similarity Graph GNN (simGNN) embeddings. The first model is a LightGBM model trained with enhanced feature sets. The second model  is an XGBoost model trained with enhanced feature sets and supervised BiGNN embeddings. The third model is a LightGBM model trained with enhanced feature sets, simGNN embeddings and self-supervised BiGNN embeddings.
 
 <div align="center">
   <img src="docs/graphs/ensemble.png" width = "90%"/>
   <br>
   <center>Model architechture overview.</center>
+</div>
+
+<div align="center">
+  <img src="docs/graphs/fe_overview.png" width = "80%"/>
+  <br>
+  <center>Feature engineer Pipeline Overview.</center>
 </div>
 
 ## Key Components
