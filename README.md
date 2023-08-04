@@ -26,7 +26,7 @@ We employ GNN to generate the embedding feature as input of the GBDT model for i
 </div>
 
 <div align="center">
-  <img src="docs/graphs/simGNN_pipeline.png" width = "50%" alt="Figure 4" />
+  <img src="docs/graphs/simGNN_pipeline.png" width = "70%" alt="Figure 4" />
   <br>
   <center>Figure 4: Similarity GNN pipeline.</center>
 </div>
