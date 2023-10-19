@@ -9,6 +9,10 @@ def merge_datasets(dataset, embedding, feats_to_drop=None):
     reset_ind_copy_fullds_df = copy_fullds_df.reset_index(drop=True)
     reset_ind_copy_emb_df = copy_emb_df.reset_index(drop=True).drop(columns=feats_to_drop)
     assert reset_ind_copy_fullds_df.shape[0] == reset_ind_copy_emb_df.shape[0]
+
+    if "is_installed" in reset_ind_copy_emb_df.columns:
+        reset_ind_copy_emb_df.drop(columns=["is_installed"], inplace=True)
+
     rearranged_df = reset_ind_copy_fullds_df.merge(reset_ind_copy_emb_df, on='f_0', how='left', suffixes=('_1', '_2'))
     assert rearranged_df.shape[0] == reset_ind_copy_fullds_df.shape[0]
     return rearranged_df
